@@ -1,5 +1,15 @@
 # CS696A-SAAS-Resume-builder-frontend
 
+## Quick Start
+### Install dependencies
+npm install
+
+### Start development server
+npm run dev
+Open http://localhost:5173 🚀
+
+See QUICK_START.md for 30-second setup guide
+
 ## Features
 
 ###  Template System
@@ -87,6 +97,52 @@ A two-step workflow: parse → preview → import
 AI-powered extraction of resume fields
 
 Robust error handling with clear, user-friendly feedback
+
+## Testing
+
+### Authentication
+
+✓ Register a new user account
+
+✓ Sign in using existing credentials
+
+✓ Log out and confirm correct redirection
+
+✓ Verify access restrictions on protected routes
+
+### Dashboard
+
+✓ Resume templates load and render correctly
+
+✓ Template search functionality works as expected
+
+✓ Category-based filtering operates correctly
+
+✓ New resumes can be created from selected templates
+
+### Resume Builder
+
+✓ Contact information updates are reflected in the live preview
+
+✓ Date picker components open and function properly
+
+✓ “Currently working here” option behaves correctly
+
+✓ AI-generated summaries are created successfully
+
+✓ AI-generated experience bullet points are generated
+
+✓ Auto-save status indicator is displayed correctly
+
+✓ Switching templates updates the resume preview in real time
+
+### Import / Export
+
+✓ PDF and DOCX resumes upload successfully
+
+✓ Parsed resume content is displayed accurately
+
+✓ Resume export functions correctly for PDF, DOCX, and TXT formats
 
  ## Screenshots
   
