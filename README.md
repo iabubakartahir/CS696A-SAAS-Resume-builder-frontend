@@ -1,4 +1,4 @@
-# CS696A-SAAS-Resume-builder-frontend
+# CS696A-SaaS Resume Builder (Frontend)
 
 ## Quick Start
 ### Install dependencies
